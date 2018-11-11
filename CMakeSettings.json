@@ -16,12 +16,16 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/Projekte/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        }
-      ]
+        "variables": [
+            {
+                "name": "CMAKE_TOOLCHAIN_FILE",
+                "value": "D:/Program Files/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+                "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+                "value": "ON"
+            }
+        ]
     },
     {
       "name": "cl-x64-debug",
@@ -38,9 +42,10 @@
       "ctestCommandArgs": "",
       "variables": [
         {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/Projekte/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        }
+            "name": "CMAKE_TOOLCHAIN_FILE",
+            "value": "D:/Program Files/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        },
+        { "name": "CMAKE_EXPORT_COMPILE_COMMANDS", "value": "ON" }
       ]
     },
     //CL-Release
@@ -57,12 +62,16 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/Projekte/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        }
-      ]
+        "variables": [
+            {
+                "name": "CMAKE_TOOLCHAIN_FILE",
+                "value": "D:/Program Files/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+                "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+                "value": "ON"
+            }
+        ]
     },
     {
       "name": "cl-x64-release",
@@ -77,12 +86,16 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/Projekte/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        }
-      ]
+        "variables": [
+            {
+                "name": "CMAKE_TOOLCHAIN_FILE",
+                "value": "D:/Program Files/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+                "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+                "value": "ON"
+            }
+        ]
     },
     //Clang-Debug
     {
@@ -98,20 +111,24 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "CMAKE_CXX_COMPILER",
-          "value": "clang-cl"
-        },
-        {
-          "name": "CMAKE_C_COMPILER",
-          "value": "clang-cl"
-        },
-        {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/Projekte/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        }
-      ]
+        "variables": [
+            {
+                "name": "CMAKE_CXX_COMPILER",
+                "value": "clang-cl"
+            },
+            {
+                "name": "CMAKE_C_COMPILER",
+                "value": "clang-cl"
+            },
+            {
+                "name": "CMAKE_TOOLCHAIN_FILE",
+                "value": "D:/Program Files/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+                "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+                "value": "ON"
+            }
+        ]
     },
     {
       "name": "clang-x64-debug",
@@ -126,20 +143,24 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "CMAKE_CXX_COMPILER",
-          "value": "clang-cl"
-        },
-        {
-          "name": "CMAKE_C_COMPILER",
-          "value": "clang-cl"
-        },
-        {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/Projekte/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        }
-      ]
+        "variables": [
+            {
+                "name": "CMAKE_CXX_COMPILER",
+                "value": "clang-cl"
+            },
+            {
+                "name": "CMAKE_C_COMPILER",
+                "value": "clang-cl"
+            },
+            {
+                "name": "CMAKE_TOOLCHAIN_FILE",
+                "value": "D:/Program Files/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+                "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+                "value": "ON"
+            }
+        ]
     },
     //Clang-Release
     {
@@ -155,20 +176,24 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "CMAKE_CXX_COMPILER",
-          "value": "clang-cl"
-        },
-        {
-          "name": "CMAKE_C_COMPILER",
-          "value": "clang-cl"
-        },
-        {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/Projekte/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        }
-      ]
+        "variables": [
+            {
+                "name": "CMAKE_CXX_COMPILER",
+                "value": "clang-cl"
+            },
+            {
+                "name": "CMAKE_C_COMPILER",
+                "value": "clang-cl"
+            },
+            {
+                "name": "CMAKE_TOOLCHAIN_FILE",
+                "value": "D:/Program Files/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+                "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+                "value": "ON"
+            }
+        ]
     },
     {
       "name": "cl-x64-release",
@@ -183,12 +208,16 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:/Projekte/vcpkg/scripts/buildsystems/vcpkg.cmake"
-        }
-      ]
+        "variables": [
+            {
+                "name": "CMAKE_TOOLCHAIN_FILE",
+                "value": "D:/Program Files/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+                "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+                "value": "ON"
+            }
+        ]
     }
   ]
 }
